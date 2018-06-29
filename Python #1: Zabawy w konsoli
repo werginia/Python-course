@@ -1,5 +1,5 @@
 """
-## kalkulator BMI
+kalkulator BMI
 - na podstawie wzoru BMI w konsolu oblicz swoje BMI
 - spróbuj napisać rozwiązanie w jednej linii
 """
@@ -15,7 +15,7 @@ print("Twoje bmi wynosi:", 53 / (1.63 ** 2))
 ---------------------------------------------------------------------------------------------------------------------
 
 """
-## Oblicz zapotrzebowanie kaloryczne:
+Oblicz zapotrzebowanie kaloryczne:
 
 a) dla 25-letniej kobiety o wzroście 1.7m i wadze 63kg, która uprawia sport kilka razy w tygodniu.
 b) siebie samej / samego.
@@ -25,7 +25,20 @@ a)
 
 height = 170
 weight = 63
+age = 25
+S = -161
 
-kalorie = (10 * weight + 6.25 * height - 5 * 25 + (-161)) * 1.6
+kalorie = (10 * weight + 6.25 * height - 5 * age + S) * 1.6
 print(kalorie)
-print('Zapotrzebowanie 25-letniej kobiety o wzroście 1,7m i  wadze 63kg, która uprawia sport kilka razy w tygodniu wynosi:', kalorie)
+print('Zapotrzebowanie 25-letniej kobiety o wzroście 1,7m i  wadze 63kg, która uprawia sport kilka razy w tygodniu wynosi:', kalorie, 'kcal')
+
+b) 
+
+height = 163
+weight = 53
+age = 26
+S = -161
+
+kalorie = (10 * weight + 6.25 * height - 5 * age + S) * 1.6
+print(kalorie)
+print('Moje zapotrzebowanie kaloryczne wynosi:', kalorie, 'kcal')
