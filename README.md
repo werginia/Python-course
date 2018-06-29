@@ -1,10 +1,10 @@
- ### Kurs Python dla początkujących
+### Kurs Python dla początkujących
 
-## Moje rozwiązania zadań 
+# Moje rozwiązania zadań 
 
 https://www.flynerd.pl/tag/python-kurs by [RitaLy](https://github.com/ritaly)
 ------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------
 
 
 Wprowadzenie do kursu - Python 3.
