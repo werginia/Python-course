@@ -1,3 +1,14 @@
+"""
+Chcemy, aby skrypt:
+
+- Zapytał o Twoje imię
+- Powitał Cię po imieniu
+- Zapytał o Twój wiek
+- Zapytał o peron z Harrego Potter’a
+- Odpowiedział (dowolnie łącząc wiek i peron), czy jest sens jechać do Hogwartu 
+"""
+
+
 print('Jak masz na imie?')
 imie = input()
 print('Czesc', imie, 'milo Cie poznac!')
