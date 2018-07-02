@@ -30,3 +30,20 @@ print("Podaj Twoj wzrost (w metrach):")
 height = float(input())
 BMI = weight / (height ** 2)
 print("Twoje bmi wynosi:", weight / (height ** 2))
+
+--------------------------------------------------------------------------------------------------------------------------
+
+"""
+Spróbuj to samo z kalkulatorem kalorii.
+"""
+
+print("Podaj Twoja wage (w kilogramach):")
+weight = float(input())
+print("Podaj Twoj wzrost (w metrach):")
+height = float(input())
+print("Podaj Twoj wiek:")
+age = float(input())
+S = -161
+
+kalorie = (10 * weight + 6.25 * height - 5 * age + S) * 1.6
+print('Zapotrzebowanie kalorii dla Ciebie wynosi:', kalorie, 'kcal')
