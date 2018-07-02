@@ -21,7 +21,7 @@ print('W wieku', wiek, 'lat chyba juz nie ma sensu jechac na peron', peron)
 --------------------------------------------------------------------------------------------------------------------------
 
 """
-Zapisz kalkulator BMI, który wcześniej był w konsoli do pliku, tak aby pytał użytkownika o potrzebne do obliczeń dane.
+Zapisz kalkulator BMI, który wcześniej był w konsoli do pliku, tak aby pytał użytkownika o potrzebne do obliczeń dane i zaokrąglił BMI.
 """
 
 print("Podaj Twoja wage (w kilogramach):")
@@ -29,7 +29,7 @@ weight = float(input())
 print("Podaj Twoj wzrost (w metrach):")
 height = float(input())
 BMI = weight / (height ** 2)
-print("Twoje bmi wynosi:", weight / (height ** 2))
+print("Twoje bmi wynosi:", round(BMI,6))
 
 --------------------------------------------------------------------------------------------------------------------------
 
