@@ -23,3 +23,36 @@ print('This is a list: ', t_list)
 print('This is a tuple: ', t_tuple)
 print('This is a dictionary: ', dictionary)
 print('this is a dic: ', dictionary['pies'])
+
+"""
+Utwórz spis oglądanych seriali.
+Każdy serial powinen mieć przypisaną ocenę w skali od 1-10.
+Zapytaj użytkownika jaki serial chce obejrzeć. W odpowiedzi podaj jego ocenę.
+Zapytaj użytkownika o dodanie kolejnego serialu i jego oceny.
+Dodaj do swojego spisu.
+"""
+
+Serials = {
+       'Na dobre i na zle' : 4.6,
+       'M jak milosc' : 5.4,
+       'Gra o tron' : 8.1,
+       'Klan' : 2,
+       'Korona' : 9,
+       'Detektyw' : 7,
+       'Sherlock' : 8,
+       'Breaking Bad' : 9
+       }
+print(list(Serials.keys()))
+print('**************************')
+       
+name = input('Jaki serial chcesz obejrzec? ')
+print('Serial {} otrzymal ocene: {}'.format(name, Serials[name]))
+
+
+print('****************************')
+new = input('Jaki serial dodac do bazy?')
+rating = input('Jaka ocene otrzymal ' + new + '? ')
+Serials[new] = float(rating)
+
+print('******************************')
+print(list(Serials.keys()))
