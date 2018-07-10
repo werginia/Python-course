@@ -37,3 +37,11 @@ Wypisz np. takie zdanie:
 Twoje *stan_początkowy* zł przez *czas* lata na lokacie *oprocentowanie* % urośnie do *wynik*.
 """
 
+stan_poczatkowy = float(input('Podaj stan poczatkowy Twojego konta: '))
+oprocentowanie = float(input('Stopa oprocentowania rocznego wynosi: '))
+czas = int(input('Liczba lat na lokacie: '))
+wynik = stan_poczatkowy *(oprocentowanie * czas)
+
+
+print('Twoje {} zł przez {} lata na lokacie {} % urośnie do {:.0f}.'.format(stan_poczatkowy, czas, oprocentowanie, wynik))
+
