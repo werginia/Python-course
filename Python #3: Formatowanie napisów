@@ -1,4 +1,6 @@
 """
+ZADANIE 1
+
 A.Utwórz nowy plik, który po podaniu przez użytkownika
 długości w cm będzie wyświetlał wynik w metrach i calach
 zaokrąglając do 4 miejsc po przecinku.
@@ -21,3 +23,17 @@ kg_to_g = kg * 1000
 kg_to_f = kg * 2.4419
 
 print("Twoja waga w kilogramach to: {}kg, a w gramach to {}g lub {} w funtach".format(kg, kg_to_g, kg_to_f))
+
+"""
+ZADANIE 2
+
+Napisz skrypt, który, który obliczy stan konta za kilka lat.
+Program pyta użytkownika o:
+- stan początkowy konta,
+- stopę oprocentowania rocznego
+- liczbę lat na lokacie
+Wynik wyświetl jako zdanie używając dowolnego sposobu formatowania tekstu.
+Wypisz np. takie zdanie:
+Twoje *stan_początkowy* zł przez *czas* lata na lokacie *oprocentowanie* % urośnie do *wynik*.
+"""
+
