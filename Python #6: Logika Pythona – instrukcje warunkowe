@@ -1,0 +1,13 @@
+"""
+Kontroler pełnoletności
+"""
+
+print('Ile masz lat?')
+age = int(input())
+difference = 18 - age
+
+if (age >= 18):
+    print('Jesteś dorosłym człowiekiem.')
+else:
+    print('Trochę Ci zostało do pełnoletności')
+    print('Dokładnie zostało Ci: ', difference, 'lat.')
