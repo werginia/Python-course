@@ -10,4 +10,4 @@ if (age >= 18):
     print('Jesteś dorosłym człowiekiem.')
 else:
     print('Trochę Ci zostało do pełnoletności')
-    print('Dokładnie zostało Ci: ', difference, 'lat.')
+    print('Dokładnie zostało Ci:', difference, 'lat.')
