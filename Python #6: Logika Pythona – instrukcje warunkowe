@@ -26,3 +26,5 @@ if (age >= 18):
 else:
     print('Trochę Ci zostało do pełnoletności')
     print('Dokładnie zostało Ci:', difference, 'lat.')
+    
+    
