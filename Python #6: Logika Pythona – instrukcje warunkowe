@@ -1,4 +1,19 @@
 """
+Kontroler pełnoletności - ćwiczenie, poprawiony błąd ze strony
+"""
+
+print("Ile masz lat?")
+age = int( input() )
+if ( age >= 18 )\
+        and (age < 100):
+    print("Jesteś dorosłym człowiekiem")
+elif ( age > 100 ):
+    print("To naprawdę twój wiek?")
+else:
+    print("Trochę Ci zostało do pełnoletności")
+
+
+"""
 Kontroler pełnoletności
 """
 
